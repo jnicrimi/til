@@ -1,5 +1,8 @@
 {
   "scripts": {
     "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*.md": "markdownlint ."
   }
 }
