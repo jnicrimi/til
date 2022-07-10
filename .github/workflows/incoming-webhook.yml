@@ -1,7 +1,9 @@
+---
+
 name: Slack Incoming Webhooks
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     pull_request:
 jobs:
   build:
