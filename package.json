@@ -3,6 +3,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.md": "markdownlint ."
+    "*.md": "markdownlint .",
+    "*.{yaml,yml,yamllint}": "yamllint ."
   }
 }
