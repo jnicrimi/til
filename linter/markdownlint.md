@@ -9,3 +9,7 @@
 ## Usage
 
 `markdownlint .`
+
+### --ignore
+
+`markdownlint . --ignore foo.md --ignore bar`
