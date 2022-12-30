@@ -11,3 +11,7 @@
 ## コンテナの停止
 
 `./vendor/bin/sail stop`
+
+## バージョンの確認
+
+`./vendor/bin/sail version`
