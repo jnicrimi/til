@@ -15,3 +15,7 @@
 ## バージョンの確認
 
 `./vendor/bin/sail version`
+
+## DB
+
+`./vendor/bin/sail exec mysql mysql -u sail -p`
