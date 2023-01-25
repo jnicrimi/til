@@ -12,10 +12,14 @@
 
 `./vendor/bin/sail stop`
 
+## アプリケーションコンテナの接続
+
+`./vendor/bin/sail shell`
+
+## MySQL の接続
+
+`./vendor/bin/sail mysql`
+
 ## バージョンの確認
 
 `./vendor/bin/sail version`
-
-## DB
-
-`./vendor/bin/sail exec mysql mysql -u sail -p`
